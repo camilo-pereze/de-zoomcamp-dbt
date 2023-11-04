@@ -6,7 +6,12 @@ sources:
     schema: trips_data_all
     tables:
       - name: green_trips_data_full
-      - name: yellow_trips_data_full 
+      - name: yellow_trips_data_full
+  - name: fhv
+    database: datazoomcamp-401501
+    schema: fhv
+    tables:
+      - name: fhv_2019_data 
 
 models:
     - name: stg_green_tripdata
